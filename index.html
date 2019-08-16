@@ -9,11 +9,16 @@
     <title>Test</title>
 </head>
 <body>
-    <form action="">
-        <label for="myEmail">E-mail:</label>
-        <input id="myEmail" type="email"><br>
-        <label for="myPassword">Password:</label>
-        <input id="myPassword" type="password">
+    <form action="http://server/process.php">
+        <fieldset>
+            <legend>Autenticação:</legend>
+            <label for="myEmail">E-mail:</label>
+            <input id="myEmail" type="email"><br>
+            <label for="myPassword">Password:</label>
+            <input id="myPassword" type="password">
+            <input type="reset" value="limpar">
+            <input type="submit" value="login">
+        </fieldset>
     </form>
 
 </body>
